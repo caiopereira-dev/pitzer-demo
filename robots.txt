@@ -1,0 +1,21 @@
+# =====================================================================
+# DEMO MODE — this file blocks all crawling on purpose.
+#
+# This site is an unapproved concept for Pitzer, built by a former
+# student. Until the owners have seen it and authorized a public
+# launch, it must not be indexed: a concept ranking for "Pitzer" would
+# compete with the school's real presence and imply an authorization
+# that does not exist.
+#
+# The same policy is set in index.html as <meta name="robots">. Both
+# have to change together at the official go-live:
+#
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://<official-domain>/sitemap.xml
+#
+# The Sitemap line needs the real domain, so it is not written here yet.
+# =====================================================================
+
+User-agent: *
+Disallow: /
